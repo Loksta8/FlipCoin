@@ -2,7 +2,7 @@
 @Author: Logan Herrera
 @Date: 3/19/2020
 The functionality of this class is to generate a montecarlo run of a flipped
-coin on a case by case bases. It returns the results to the user.
+coin on a case by case basis. It returns the results to the user.
 """
 
 #Add needed libraries
