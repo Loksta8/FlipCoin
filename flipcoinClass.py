@@ -1,6 +1,7 @@
 """
 @Author: Logan Herrera
 @Date: 3/19/2020
+@Python Version 3.5.3
 The functionality of this class is to generate a montecarlo run of a flipped
 coin on a case by case basis. It returns the results to the user.
 """
