@@ -4,9 +4,12 @@
 The functionality of this class is to generate a montecarlo run of a flipped
 coin on a case by case bases. It returns the results to the user.
 """
+
+#Add needed libraries
 import random
 from fractions import *
 
+#Class definition that takes user input
 class FlipCoin:
 
     def __init__(self, cases, number):
@@ -14,6 +17,7 @@ class FlipCoin:
         self.number = number
 
 #Print results of each case to the user
+#May update later to give probability of HEADS or TAILS
     @classmethod
     def giveResults(self, cases, number):
         for i in range(cases):
