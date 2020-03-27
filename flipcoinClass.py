@@ -59,6 +59,7 @@ class FlipCoin:
 
 #Main function to take input from user to start monte-carlo run
 def main():
+    random.seed()
     cases = int(input("How many cases? "))
     number = int(input("How many times do we flip the coin?"))
     fC = FlipCoin(cases, number)
