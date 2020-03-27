@@ -54,7 +54,10 @@ class FlipCoin:
         chance = Fraction(1/2)
         prob = chance
         for i in range(number):
-            prob *= chance
+            if number == 1:
+               break
+            else:
+                prob *= chance
         return prob
 
 #Main function to take input from user to start monte-carlo run
